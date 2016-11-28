@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Anettes Sandwich</string>
     <string name="Start">Start</string>
+    <string name="choose_sandwich">Vælg sandwich</string>
 </resources>

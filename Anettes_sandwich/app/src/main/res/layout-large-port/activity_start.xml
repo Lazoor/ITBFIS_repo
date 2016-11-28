@@ -82,7 +82,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/welcome_text"
-        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textAppearance="@android:style/TextAppearance.Large"
         app:layout_constraintBottom_toTopOf="@+id/logo_imageview"
         android:layout_marginStart="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
