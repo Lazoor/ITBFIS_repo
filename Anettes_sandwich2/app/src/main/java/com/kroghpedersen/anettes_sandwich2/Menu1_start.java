@@ -23,7 +23,7 @@ public class Menu1_start extends AppCompatActivity {
 
         setContentView(R.layout.activity_menu1_start);
 
-        // Load text
+        // set text font
         StartButton = (Button) findViewById(R.id.menu1_btn_start);
         Typeface font = Typeface.createFromAsset(getAssets(), "font/Roboto-Bold.ttf");
         StartButton.setTypeface(font);

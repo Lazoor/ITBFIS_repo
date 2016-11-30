@@ -3,4 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="large_btn_txt">32sp</dimen>
+    <dimen name="normal_choice_txt">22sp</dimen>
+    <dimen name="title_txt">28sp</dimen>
 </resources>
