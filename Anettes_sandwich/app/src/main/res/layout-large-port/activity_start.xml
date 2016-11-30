@@ -41,7 +41,7 @@
         android:background="@color/colorPrimaryDark"
         tools:textSize="60sp"
         android:textColor="@android:color/white"
-        android:textSize="70sp"
+        android:textSize="@dimen/item_textsize"
         android:textStyle="bold" />
 
     <ImageView
