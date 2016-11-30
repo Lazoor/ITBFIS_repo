@@ -8,35 +8,40 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class SandwichChoiceActivity extends AppCompatActivity {
+public class MainIngredientChoiceActivity extends AppCompatActivity {
 
     ButtonAdapter buttonAdapter;
     ListView sandwichListview;
     List<ButtonObject> buttonObjects;
     Bitmap sandwichIcon;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sandwich_choice);
+        setContentView(R.layout.activity_main_ingredient_choice);
 
         buttonObjects = new ArrayList<ButtonObject>();
 
-        sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.aegogrejer);
-        ButtonObject bygSelv = new ButtonObject(sandwichIcon, "Byg Selv", "Lav din egen sandwich, med det som du har lyst til.");
+        sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.kylling);
+        ButtonObject chicken = new ButtonObject(sandwichIcon, "Kylling", "Buk buk buk.");
 
-        sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.kyllingogbacon);
-        ButtonObject kyllingBacon = new ButtonObject(sandwichIcon, "Kylling & bacon", "Klassisk Kylling & Bacon Sandwich");
+        sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.aeg);
+        ButtonObject egg = new ButtonObject(sandwichIcon, "Æg", "ægelyd.");
 
-        buttonObjects.add(bygSelv);
-        buttonObjects.add(kyllingBacon);
+        sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.laks);
+        ButtonObject salmon = new ButtonObject(sandwichIcon, "Laks", "Nam nam.");
+
+        sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.rejer);
+        ButtonObject shrimp = new ButtonObject(sandwichIcon, "Rejer", "...");
+
+        buttonObjects.add(chicken);
+        buttonObjects.add(egg);
+        buttonObjects.add(salmon);
+        buttonObjects.add(shrimp);
 
         buttonAdapter = new ButtonAdapter(getApplicationContext(), buttonObjects);
 
@@ -47,7 +52,7 @@ public class SandwichChoiceActivity extends AppCompatActivity {
         sandwichListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent nextStepIntent = new Intent(view.getContext(), BreadChoiceActivity.class);
+                Intent nextStepIntent = new Intent(view.getContext(), SandwichChoiceActivity.class);
                 startActivity(nextStepIntent);
             }
         });

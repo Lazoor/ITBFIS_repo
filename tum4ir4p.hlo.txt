@@ -1,0 +1,36 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   Anettes_sandwich/.idea/misc.xml
+#	modified:   Anettes_sandwich/app/src/main/AndroidManifest.xml
+#	new file:   Anettes_sandwich/app/src/main/java/dk/itbfis/anettes_sandwich/BreadChoiceActivity.java
+#	deleted:    Anettes_sandwich/app/src/main/java/dk/itbfis/anettes_sandwich/ButtonLibrary.java
+#	new file:   Anettes_sandwich/app/src/main/java/dk/itbfis/anettes_sandwich/MainIngredientChoiceActivity.java
+#	modified:   Anettes_sandwich/app/src/main/java/dk/itbfis/anettes_sandwich/SandwichChoiceActivity.java
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/aeg.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/aegogrejer.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/focaccia.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/grov.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/kylling.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/kyllingogbacon.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/laks.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/norsklaksogroedloeg.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/protein.png
+#	new file:   Anettes_sandwich/app/src/main/res/drawable/rejer.png
+#	new file:   Anettes_sandwich/app/src/main/res/layout-large-port/activity_bread_choice.xml
+#	new file:   Anettes_sandwich/app/src/main/res/layout-large-port/activity_main_ingredient_choice.xml
+#	modified:   Anettes_sandwich/app/src/main/res/layout-large-port/activity_sandwich_choice.xml
+#	modified:   Anettes_sandwich/app/src/main/res/layout-large-port/item_button_layout.xml
+#	deleted:    Anettes_sandwich/app/src/main/res/layout/activity_sandwich_choice.xml
+#	deleted:    Anettes_sandwich/app/src/main/res/layout/activity_start.xml
+#	deleted:    Anettes_sandwich/app/src/main/res/layout/item_button_layout.xml
+#	modified:   Anettes_sandwich/app/src/main/res/values-da/strings.xml
+#	modified:   Anettes_sandwich/app/src/main/res/values/dimens.xml
+#	modified:   Anettes_sandwich/app/src/main/res/values/strings.xml
+#
+

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Anettes Sandwich</string>
     <string name="Start">Start</string>
-    <string name="choose_sandwich">Vælg sandwich</string>
+    <string name="choose_sandwich">Vælg Sandwich</string>
+    <string name="choose_bread">Vælg Brød</string>
+    <string name="choose_main_ingredient">Vælg Hovedingrediens</string>
 </resources>

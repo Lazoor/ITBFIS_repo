@@ -2,14 +2,14 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_sandwich_choice"
+    android:id="@+id/activity_bread_choice"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="dk.itbfis.anettes_sandwich.SandwichChoiceActivity">
+    tools:context="dk.itbfis.anettes_sandwich.BreadChoiceActivity">
 
     <TextView
-        android:text="@string/choose_sandwich"
+        android:text="@string/choose_bread"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/choose_sandwich_text"
