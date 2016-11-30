@@ -18,11 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu2_choice"
+        <activity
+            android:name=".Menu2_choice"
             android:configChanges="orientation"
-            android:screenOrientation="landscape">
-
-        </activity>
+            android:screenOrientation="landscape" />
+        <activity android:name=".menu3_breadpick" />
+        <activity android:name=".Menu4_meatpick" />
+        <activity android:name=".Menu5_extrapick" />
+        <activity android:name=".Menu6_dressingpick" />
+        <activity android:name=".Menu7_drinkpick" />
+        <activity android:name=".Menu9_paymentpick"></activity>
     </application>
 
 </manifest>

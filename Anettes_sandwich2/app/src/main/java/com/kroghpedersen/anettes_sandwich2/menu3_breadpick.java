@@ -20,7 +20,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Menu2_choice extends AppCompatActivity {
+public class menu3_breadpick extends AppCompatActivity {
 
     ListView lw;
     List<ChoiceObj> choiceObjList;
@@ -35,29 +35,25 @@ public class Menu2_choice extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_manu2_choice);
+        setContentView(R.layout.activity_menu3_breadpick);
 
 
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Byg Selv", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Kylling", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Find selv på mere...", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Find selv på mere...", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Find selv på mere...", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Find selv på mere...", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Find selv på mere...", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Klassisk mørk", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Focaccia", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Protein", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
 
 
-        lw = (ListView) findViewById(R.id.menu2_choice_lw);
+        lw = (ListView) findViewById(R.id.menu3_choice_lw);
         RandomAdapter RA = new RandomAdapter(getApplicationContext(),choiceObjList);
 
         lw.setAdapter(RA);
 
 
         // set text font
-        title_tv = (TextView) findViewById(R.id.menu2_title_tv);
+        title_tv = (TextView) findViewById(R.id.menu3_title_tv);
         Typeface font = Typeface.createFromAsset(getAssets(), "font/Roboto-Bold.ttf");
         title_tv.setTypeface(font);
 
@@ -65,7 +61,7 @@ public class Menu2_choice extends AppCompatActivity {
         lw.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent nextStepIntent = new Intent(view.getContext(), menu3_breadpick.class);
+                Intent nextStepIntent = new Intent(view.getContext(), Menu4_meatpick.class);
                 startActivity(nextStepIntent);
             }
         });
