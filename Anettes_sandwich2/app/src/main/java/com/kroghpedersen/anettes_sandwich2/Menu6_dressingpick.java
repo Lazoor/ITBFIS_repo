@@ -43,10 +43,10 @@ public class Menu6_dressingpick extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Hjemmelavet Mayo", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Ketchup", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Karry", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Ingen Dressing", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Hjemmelavet Mayo", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.mayo)));
+        choiceObjList.add(new ChoiceObj("Ketchup", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.ketchup)));
+        choiceObjList.add(new ChoiceObj("Karry", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.karry)));
+        choiceObjList.add(new ChoiceObj("Ingen Dressing", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.ingendressing)));
 
 
         lw = (ListView) findViewById(R.id.menu6_choice_lw);

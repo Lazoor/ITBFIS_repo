@@ -43,9 +43,9 @@ public class menu3_breadpick extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Klassisk mørk", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Focaccia", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Protein", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Klassisk mørk", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.grov)));
+        choiceObjList.add(new ChoiceObj("Focaccia", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.focaccia)));
+        choiceObjList.add(new ChoiceObj("Protein", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.protein)));
 
 
         lw = (ListView) findViewById(R.id.menu3_choice_lw);
