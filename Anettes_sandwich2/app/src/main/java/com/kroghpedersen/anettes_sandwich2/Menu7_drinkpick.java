@@ -43,10 +43,10 @@ public class Menu7_drinkpick extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Vand", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Kaffe", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Juice", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Ingen drik", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Vand", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.vand)));
+        choiceObjList.add(new ChoiceObj("Kaffe", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.kaffe)));
+        choiceObjList.add(new ChoiceObj("Juice", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.juice)));
+        choiceObjList.add(new ChoiceObj("Ingen drik", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.ingendrink)));
 
 
         lw = (ListView) findViewById(R.id.menu7_choice_lw);

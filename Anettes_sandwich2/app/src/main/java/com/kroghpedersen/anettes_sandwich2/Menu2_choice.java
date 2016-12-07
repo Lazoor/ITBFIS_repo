@@ -44,9 +44,7 @@ public class Menu2_choice extends AppCompatActivity {
 
         // Set list with valid choices
         choiceObjList.add(new ChoiceObj("Byg Selv", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Kylling", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Find selv på mere...", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-
+        choiceObjList.add(new ChoiceObj("Kylling & Bacon", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.kyllingogbacon)));
 
         lw = (ListView) findViewById(R.id.menu2_choice_lw);
         RandomAdapter RA = new RandomAdapter(getApplicationContext(),choiceObjList);

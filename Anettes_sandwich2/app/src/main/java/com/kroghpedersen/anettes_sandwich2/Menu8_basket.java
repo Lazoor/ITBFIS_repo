@@ -48,10 +48,10 @@ public class Menu8_basket extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Salat", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Byg selv", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
 
         lw = (ListView) findViewById(R.id.menu8_choice_lw);
-        RandomAdapter RA = new RandomAdapter(getApplicationContext(),choiceObjList);
+        RandomAdapterBasket RA = new RandomAdapterBasket(getApplicationContext(),choiceObjList);
 
         lw.setAdapter(RA);
 
@@ -92,9 +92,8 @@ public class Menu8_basket extends AppCompatActivity {
         });
 
 
-        fap_add.setImageBitmap(BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.betal_tekst_mini));
-
-
+        fap_add.setImageBitmap(BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.tilfoej_tekst_mini));
+        fap_next.setImageBitmap(BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.betal_tekst_mini));
 
     }
 
@@ -112,7 +111,5 @@ public class Menu8_basket extends AppCompatActivity {
         canvas.drawText(text, 0, baseline, paint);
         return image;
     }
-
-
 
 }

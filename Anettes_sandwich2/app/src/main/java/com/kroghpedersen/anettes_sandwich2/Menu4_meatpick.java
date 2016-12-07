@@ -43,10 +43,10 @@ public class Menu4_meatpick extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Kylling", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Æg", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Laks", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Rejer", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Kylling", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.kylling)));
+        choiceObjList.add(new ChoiceObj("Æg", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.aeg)));
+        choiceObjList.add(new ChoiceObj("Laks", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.laks)));
+        choiceObjList.add(new ChoiceObj("Rejer", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.rejer)));
 
 
         lw = (ListView) findViewById(R.id.menu4_choice_lw);

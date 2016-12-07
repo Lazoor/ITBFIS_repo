@@ -40,9 +40,9 @@ public class Menu5_extrapick extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Salat", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Gulerod", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
-        choiceObjList.add(new ChoiceObj("Tomat", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.stadard)));
+        choiceObjList.add(new ChoiceObj("Salat", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.salat)));
+        choiceObjList.add(new ChoiceObj("Gulerod", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.gulerod)));
+        choiceObjList.add(new ChoiceObj("Tomat", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.tomat)));
 
 
         lw = (ListView) findViewById(R.id.menu5_choice_lw);

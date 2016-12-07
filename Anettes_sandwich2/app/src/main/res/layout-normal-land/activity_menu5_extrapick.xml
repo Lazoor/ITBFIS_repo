@@ -23,8 +23,8 @@
         tools:layout_constraintLeft_creator="1" />
 
     <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:clickable="true"
         app:fabSize="normal"
         app:srcCompat="?attr/actionModeCloseDrawable"
@@ -37,8 +37,8 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:clickable="true"
         app:fabSize="normal"
         app:srcCompat="@android:drawable/ic_menu_revert"
