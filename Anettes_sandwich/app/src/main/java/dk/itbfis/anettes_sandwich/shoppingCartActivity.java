@@ -3,6 +3,7 @@ package dk.itbfis.anettes_sandwich;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,14 +20,14 @@ public class shoppingCartActivity extends AppCompatActivity {
     ListView CartListview;
     List<ButtonObject> buttonObjects;
     Bitmap cartIcon;
-    Button payButton;
+    FloatingActionButton payButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopping_cart);
 
-        payButton = (Button) findViewById(R.id.pay_button);
+        payButton = (FloatingActionButton) findViewById(R.id.fab_pay);
 
         buttonObjects = new ArrayList<ButtonObject>();
 
