@@ -43,10 +43,10 @@ public class Menu9_paymentpick extends AppCompatActivity {
         choiceObjList = new ArrayList<ChoiceObj>();
 
         // Set list with valid choices
-        choiceObjList.add(new ChoiceObj("Kredit Kort", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.creditcards)));
-        choiceObjList.add(new ChoiceObj("Kontant", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.kontant)));
+        //choiceObjList.add(new ChoiceObj("Kredit Kort", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.creditcards)));
+        //choiceObjList.add(new ChoiceObj("Kontant", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.kontant)));
+        choiceObjList.add(new ChoiceObj("MobilePay", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.mobile_pay_title)));
         choiceObjList.add(new ChoiceObj("Vouchers", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.voucher)));
-        //choiceObjList.add(new ChoiceObj("MobilePay", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.mobile_pay)));
 
         lw = (ListView) findViewById(R.id.menu9_choice_lw);
         RandomAdapter RA = new RandomAdapter(getApplicationContext(),choiceObjList);

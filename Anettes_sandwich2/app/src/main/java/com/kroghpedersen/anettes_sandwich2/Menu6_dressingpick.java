@@ -46,14 +46,13 @@ public class Menu6_dressingpick extends AppCompatActivity {
         choiceObjList.add(new ChoiceObj("Hjemmelavet Mayo", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.mayo)));
         choiceObjList.add(new ChoiceObj("Ketchup", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.ketchup)));
         choiceObjList.add(new ChoiceObj("Karry", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.karry)));
-        choiceObjList.add(new ChoiceObj("Ingen Dressing", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.ingendressing)));
+        choiceObjList.add(new ChoiceObj("Ingen Dressing", BitmapFactory.decodeResource(getApplicationContext().getResources(),R.drawable.nosaladdressing)));
 
 
         lw = (ListView) findViewById(R.id.menu6_choice_lw);
         RandomAdapter RA = new RandomAdapter(getApplicationContext(),choiceObjList);
 
         lw.setAdapter(RA);
-
 
         // set text font
         title_tv = (TextView) findViewById(R.id.menu6_title_tv);
@@ -78,7 +77,6 @@ public class Menu6_dressingpick extends AppCompatActivity {
                 finish();
             }
         });
-
 
     }
 }
