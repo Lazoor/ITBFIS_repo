@@ -31,7 +31,7 @@ public class shoppingCartActivity extends AppCompatActivity {
         buttonObjects = new ArrayList<ButtonObject>();
 
         cartIcon = BitmapFactory.decodeResource(getResources(), R.drawable.kyllingogbacon);
-        ButtonObject Sandwich = new ButtonObject(cartIcon, "Custom Sandwich", "+Protein brød +Kylling +Mayonnaise +Salat +Gulerod +Tomat");
+        ButtonObject Sandwich = new ButtonObject(cartIcon, "Byg Selv Sandwich", "Din Sandwich...");
 
         buttonObjects.add(Sandwich);
 

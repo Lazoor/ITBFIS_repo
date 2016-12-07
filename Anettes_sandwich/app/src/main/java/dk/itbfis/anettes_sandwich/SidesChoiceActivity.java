@@ -3,6 +3,7 @@ package dk.itbfis.anettes_sandwich;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,14 +20,14 @@ public class SidesChoiceActivity extends AppCompatActivity {
     ListView sidesListview;
     List<CheckboxObject> checkboxObjects;
     Bitmap sidesIcon;
-    Button nextButton;
+    FloatingActionButton BackButton, NextButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sides_choice);
 
-        nextButton = (Button) findViewById(R.id.next_btn);
+        NextButton = (FloatingActionButton) findViewById(R.id.fab_next);
 
         checkboxObjects = new ArrayList<CheckboxObject>();
 
@@ -50,7 +51,7 @@ public class SidesChoiceActivity extends AppCompatActivity {
 
         sidesListview.setAdapter(checkboxAdapter);
 
-        nextButton.setOnClickListener(new View.OnClickListener() {
+        NextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent nextStepIntent = new Intent(v.getContext(), DressingChoiceActivity.class);
@@ -61,6 +62,14 @@ public class SidesChoiceActivity extends AppCompatActivity {
         sidesListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            }
+        });
+
+        BackButton = (FloatingActionButton) findViewById(R.id.fab_back);
+        BackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 

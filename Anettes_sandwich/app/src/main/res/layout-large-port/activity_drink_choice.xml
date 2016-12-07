@@ -21,7 +21,8 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:textColor="@color/titleColor" />
 
     <ListView
         android:layout_width="0dp"
@@ -34,4 +35,18 @@
         android:id="@+id/drink_listview"
         android:layout_marginTop="16dp" />
 
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:id="@+id/fab_back"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:backgroundTint="?attr/actionMenuTextColor" />
 </android.support.constraint.ConstraintLayout>

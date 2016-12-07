@@ -21,7 +21,8 @@
         android:layout_marginLeft="32dp"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/titleColor" />
 
     <ImageView
         app:srcCompat="@drawable/awwow"
@@ -52,7 +53,8 @@
         android:textSize="@dimen/title_textsize"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/titleColor" />
 
     <TextView
         android:text="@string/take_seat"
@@ -68,6 +70,7 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="32dp"
         android:textSize="@dimen/item_textsize"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/titleColor" />
 
 </android.support.constraint.ConstraintLayout>
