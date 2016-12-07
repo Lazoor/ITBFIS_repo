@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.net.Uri;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.ListViewCompat;
@@ -26,6 +27,7 @@ public class Menu7_drinkpick extends AppCompatActivity {
     List<ChoiceObj> choiceObjList;
 
     TextView title_tv;
+    FloatingActionButton back_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,8 +64,19 @@ public class Menu7_drinkpick extends AppCompatActivity {
         lw.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent nextStepIntent = new Intent(view.getContext(), Menu9_paymentpick.class);
+                Intent nextStepIntent = new Intent(view.getContext(), Menu8_basket.class);
                 startActivity(nextStepIntent);
+            }
+        });
+
+
+        // Back button
+        back_btn = (FloatingActionButton) findViewById(R.id.menu7_drinkpick_fab);
+
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 

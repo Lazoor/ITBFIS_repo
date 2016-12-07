@@ -27,13 +27,13 @@ public class MainIngredientChoiceActivity extends AppCompatActivity {
         buttonObjects = new ArrayList<ButtonObject>();
 
         sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.kylling);
-        ButtonObject chicken = new ButtonObject(sandwichIcon, "Kylling", "Buk buk buk.");
+        ButtonObject chicken = new ButtonObject(sandwichIcon, "Kylling", "...");
 
         sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.aeg);
-        ButtonObject egg = new ButtonObject(sandwichIcon, "Æg", "ægelyd.");
+        ButtonObject egg = new ButtonObject(sandwichIcon, "Æg", "...");
 
         sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.laks);
-        ButtonObject salmon = new ButtonObject(sandwichIcon, "Laks", "Nam nam.");
+        ButtonObject salmon = new ButtonObject(sandwichIcon, "Laks", "...");
 
         sandwichIcon = BitmapFactory.decodeResource(getResources(), R.drawable.rejer);
         ButtonObject shrimp = new ButtonObject(sandwichIcon, "Rejer", "...");
@@ -52,7 +52,7 @@ public class MainIngredientChoiceActivity extends AppCompatActivity {
         sandwichListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent nextStepIntent = new Intent(view.getContext(), SandwichChoiceActivity.class);
+                Intent nextStepIntent = new Intent(view.getContext(), SidesChoiceActivity.class);
                 startActivity(nextStepIntent);
             }
         });

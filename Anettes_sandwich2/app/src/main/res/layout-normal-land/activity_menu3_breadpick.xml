@@ -35,4 +35,20 @@
         tools:layout_constraintLeft_creator="1"
         android:textSize="@dimen/title_txt"
         android:textColor="@color/colorAccent"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:id="@+id/menu3_bread_fab"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
 </android.support.constraint.ConstraintLayout>

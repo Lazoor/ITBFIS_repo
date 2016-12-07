@@ -34,6 +34,7 @@ public class Menu1_start extends AppCompatActivity {
             public void onClick(View v) {
                 Intent myIntent = new Intent(getApplicationContext(), Menu2_choice.class);
                 startActivity(myIntent);
+                //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);  // Disabled, doesn't work
             }
 
         });

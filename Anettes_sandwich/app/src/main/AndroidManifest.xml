@@ -21,19 +21,27 @@
         <activity
             android:name=".SandwichChoiceActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ButtonItemLayout"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".BreadChoiceActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainIngredientChoiceActivity"
             android:configChanges="orientation"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
+        <activity android:name=".SidesChoiceActivity" />
+        <activity android:name=".CheckboxItemLayout" />
+        <activity android:name=".DressingChoiceActivity" />
+        <activity android:name=".DrinkChoiceActivity" />
+        <activity android:name=".shoppingCartActivity" />
+        <activity android:name=".PaymentChoiceActivity" />
+        <activity android:name=".CompletePaymentActivity" />
+        <activity android:name=".OrderCompleteActivity"></activity>
     </application>
 
 </manifest>

@@ -4,4 +4,16 @@
     <string name="choose_sandwich">Vælg Sandwich</string>
     <string name="choose_bread">Vælg Brød</string>
     <string name="choose_main_ingredient">Vælg Hovedingrediens</string>
+    <string name="choose_sides">Vælg Tilbehør</string>
+    <string name="next">Next</string>
+    <string name="pay">Betal</string>
+    <string name="choose_dressing">Vælg Dressing</string>
+    <string name="choose_drink">Vælg Drikkevare</string>
+    <string name="shopping_cart">Indkøbskurv</string>
+    <string name="payment">Betalings Metode</string>
+    <string name="complete_payment">Gennemfør Betaling</string>
+    <string name="on_terminal">På Terminal</string>
+    <string name="order_complete">Tak for din ordre</string>
+    <string name="take_seat">Tag plads imens vi laver din ordre færdig</string>
+    <string name="receipt">HUSK KVITERING</string>
 </resources>
