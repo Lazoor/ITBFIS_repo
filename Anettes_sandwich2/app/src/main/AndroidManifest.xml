@@ -14,7 +14,6 @@
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -22,12 +21,36 @@
             android:name=".Menu2_choice"
             android:configChanges="orientation"
             android:screenOrientation="landscape" />
-        <activity android:name=".menu3_breadpick" />
-        <activity android:name=".Menu4_meatpick" />
-        <activity android:name=".Menu5_extrapick" />
-        <activity android:name=".Menu6_dressingpick" />
-        <activity android:name=".Menu7_drinkpick" />
-        <activity android:name=".Menu9_paymentpick"></activity>
+        <activity
+            android:name=".menu3_breadpick"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu4_meatpick"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu5_extrapick"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu6_dressingpick"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu7_drinkpick"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu9_paymentpick"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu8_basket"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape">
+
+        </activity>
     </application>
 
 </manifest>

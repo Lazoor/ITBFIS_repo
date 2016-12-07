@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.kroghpedersen.anettes_sandwich2.Menu6_dressingpick"
-    android:background="@color/colorPrimary">>
+    android:background="@color/colorPrimary">
 
 
     <ListView
@@ -35,4 +35,22 @@
         tools:layout_constraintLeft_creator="1"
         android:textSize="@dimen/title_txt"
         android:textColor="@color/colorAccent"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:id="@+id/menu6_dressingpick_fab"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
+
 </android.support.constraint.ConstraintLayout>
